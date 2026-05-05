@@ -1,40 +1,5 @@
 venv/
-    __pycache__/
-    *.pyc
-    instance/
-    .env
-    ```
-
----
-
-### 2. Prepare and Commit Your Code
-Now, tell Git to track your project files.
-
-1.  **Initialize the repository:**
-    ```bash
-    git init
-    ```
-2.  **Stage your files:**
-    
-```bash
-    git add .
-    ```
-3.  **Create your first commit:**
-    
-```bash
-    git commit -m "Initial commit: Flask Admin Dashboard with CRUD"
-    ```
-
----
-
-### 3. Connect to GitHub
-Now you need a place for the code to live online.
-
-1.  Go to [GitHub](https://github.com/) and create a **New Repository**.
-2.  Give it a name (e.g., `qatar-foundation-admin`) and click **Create repository**.
-3.  GitHub will show you a page with some commands. Look for the section **"…or push an existing repository from the command line"** and copy those lines. They usually look like this:
-
-```bash
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-git branch -M main
-git push -u origin main
+__pycache__/
+*.pyc
+instance/
+.env
